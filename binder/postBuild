@@ -1,0 +1,4 @@
+cd face3d/mesh/cython
+python setup.py build_ext -i 
+cd ../..
+python setup.py install
